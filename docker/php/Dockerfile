@@ -15,7 +15,7 @@ RUN pecl install xdebug \
 COPY xdebug.ini /usr/local/etc/php/conf.d/xdebug.ini
 
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
-RUN chmod +x /usr/local/bin/entrypoint.sh
+RUN dos2unix /usr/local/bin/entrypoint.sh && chmod +x /usr/local/bin/entrypoint.sh
 
 WORKDIR /var/www
 
