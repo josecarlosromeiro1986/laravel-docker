@@ -62,8 +62,6 @@ O código do Laravel fica dentro de:
 src/
 ```
 
-Se o diretório estiver vazio, você pode criar o projeto Laravel diretamente nele.
-
 ---
 
 ## 📦 Instalando dependências com Composer
