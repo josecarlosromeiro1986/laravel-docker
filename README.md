@@ -42,7 +42,9 @@ Nginx   | latest  | Servidor web eficiente para produção e dev
 
 # ▶️ Subindo o Ambiente
 
-```docker-compose up -d```
+```
+docker-compose up -d
+```
 
 Isso faz o Docker:
 - Baixar as imagens necessárias
