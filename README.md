@@ -179,9 +179,9 @@ https://laravel.com/docs
 ## 👤 Autor
 
 **José Carlos Romeiro**  
-Backend Developer  
+Backend Developer
 
-📎 LinkedIn: <a href="https://www.linkedin.com/in/josecarlosromeiro1986" target="_blank">https://www.linkedin.com/in/josecarlosromeiro1986</a>
+📎 LinkedIn: https://www.linkedin.com/in/josecarlosromeiro1986
 
 ---
 
