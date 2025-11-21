@@ -4,22 +4,26 @@ Além disso, este README explica **para que serve cada arquivo, pasta e configur
 
 ---
 
-# 📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
 /
-├── docker/                  → Contém os Dockerfiles e configurações dos serviços  
-│   ├── mysql/               → Configurações específicas do MySQL  
-│   ├── nginx/               → Configurações do servidor Nginx  
-│   ├── php/                 → Dockerfile e customizações do PHP  
-│   └── redis/               → Configurações do Redis  
-├── logs/                    → Todos os logs são armazenados aqui (fora dos containers)  
-│   ├── mysql/               → Logs do MySQL  
-│   ├── nginx/               → Logs de acesso e erro do Nginx  
-│   ├── php/                 → Logs de erro do PHP-FPM  
-│   └── redis/               → Logs do Redis  
-├── src/                     → A pasta onde o Laravel será instalado  
-├── docker-compose.yml       → Arquivo que orquestra todos os containers  
-└── README.md                → Você está aqui!
+├── docker/ → Contém os Dockerfiles e configurações dos serviços  
+│   ├── mysql/ → Configurações específicas do MySQL  
+│   ├── nginx/ → Configurações do servidor Nginx  
+│   ├── php/ → Dockerfile e customizações do PHP  
+│   └── redis/ → Configurações do Redis  
+│
+├── logs/ → Todos os logs são armazenados aqui (fora dos containers)  
+│   ├── mysql/ → Logs do MySQL  
+│   ├── nginx/ → Logs de acesso e erro do Nginx  
+│   ├── php/ → Logs de erro do PHP-FPM  
+│   └── redis/ → Logs do Redis  
+│
+├── src/ → A pasta onde o Laravel será instalado  
+│
+├── docker-compose.yml → Arquivo que orquestra todos os containers  
+│
+└── README.md → Você está aqui!
 
 ---
 
